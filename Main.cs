@@ -29,6 +29,10 @@ namespace SqlLabCS
             N = new Names(F);
             S = new Subjects(F);
             L = new Living(F);
+
+            button1.Visible = false;
+            button2.Visible = false;
+            button3.Visible = false;
         }
 
         private void namesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -37,6 +41,9 @@ namespace SqlLabCS
             F.Refresh(dataGridView1, F.WhereOperate);
             panel1.Controls.Clear();
             panel1.Controls.Add(N);
+            button1.Visible = true;
+            button2.Visible = true;
+            button3.Visible = true;
         }
 
         private void subjectsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -45,6 +52,9 @@ namespace SqlLabCS
             F.Refresh(dataGridView1, F.WhereOperate);
             panel1.Controls.Clear();
             panel1.Controls.Add(S);
+            button1.Visible = true;
+            button2.Visible = true;
+            button3.Visible = true;
         }
 
         private void livingToolStripMenuItem_Click(object sender, EventArgs e)
@@ -53,6 +63,9 @@ namespace SqlLabCS
             F.Refresh(dataGridView1, F.WhereOperate);
             panel1.Controls.Clear();
             panel1.Controls.Add(L);
+            button1.Visible = true;
+            button2.Visible = true;
+            button3.Visible = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
