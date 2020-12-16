@@ -398,6 +398,35 @@ namespace SqlLabCS
                     con.Open();
                     com.ExecuteScalar();
                 }
+                else
+                {
+                    if(temp == string.Empty && values[0] != string.Empty)
+                    {
+                        MessageBox.Show("Вы не указали ни одной ячейки для изменения." +
+                            "Добавьте заменяемые значения и повторите попытку.",
+                            "Что будем изменять?..",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Question);
+                    }
+                    if (temp != string.Empty && values[0] == string.Empty)
+                    {
+                        MessageBox.Show("Вы не указали идентификатор, хотя в справке было " +
+                            "ЯСНО И ЧЁТКО ИЗЛОЖЕНО, ЧТО ДАННАЯ ПРОЦЕДУРА ОБЯЗАТЕЛЬНА >:(" +
+                            "Добавьте идентификатор, не позорьте нацию...",
+                            "Ну я же просил!..",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Exclamation);
+                    }
+                    if (temp == string.Empty && values[0] == string.Empty)
+                    {
+                        MessageBox.Show("Это невероятно, но вы умудрились забыть не только " +
+                            "про заменяемые ячейки, но ДАЖЕ про идентификатор..." +
+                            "Если вы просто так жмякаете кнопку 'Изменить', то ради бога, не делайте этого.",
+                            "Медицина здесь бессильна...Вызывайте санитаров.",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
+                    }
+                }
             }
             catch (Exception ex)
             {
