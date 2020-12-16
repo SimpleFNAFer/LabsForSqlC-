@@ -1,0 +1,15 @@
+E:\Настя\AppProjectsVS\SqlLabCS\bin\Debug\SqlLabCS.exe.config
+E:\Настя\AppProjectsVS\SqlLabCS\bin\Debug\SqlLabCS.exe
+E:\Настя\AppProjectsVS\SqlLabCS\bin\Debug\SqlLabCS.pdb
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.csprojAssemblyReference.cache
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.Properties.Resources.resources
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.csproj.GenerateResource.cache
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.csproj.CoreCompileInputs.cache
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.exe
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.pdb
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.MainWindow.resources
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.Connecting.resources
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.Main.resources
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.Living.resources
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.Names.resources
+E:\Настя\AppProjectsVS\SqlLabCS\obj\Debug\SqlLabCS.Subjects.resources
